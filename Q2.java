@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SubstringProgram {
 
-    // Create substring using charAt()
+  
     static String createSubstring(String str, int start, int end) {
 
         String result = "";
@@ -14,7 +14,6 @@ public class SubstringProgram {
         return result;
     }
 
-    // Compare two strings using charAt()
     static boolean compareStrings(String s1, String s2) {
 
         if (s1.length() != s2.length())
